@@ -47,7 +47,6 @@ void dfs(vvi &adj, vi &a, vb &visited, int v, int m) {
 }
  
 int main() {
-    //ios_base::sync_with_stdio(false) ; cin.tie(NULL) ; cout.tie(NULL) ;
     int n,m,x,y,v=1;
     cin>>n>>m;
     vi a(n+1);
